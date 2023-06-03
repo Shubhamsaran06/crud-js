@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+         <button class="contactbtn" onclick="show()" style="border: none;">Add Contact</button>
+         <input type="search" placeholder="Search Contacts" id="search" onkeyup="finddata()" class="ctsearch">
+         
+          <div id="maininput" style="color:red;">
+
+            <!-- <h2 id="nodata" style="color:white;">No Contact to Show</h2> -->
+               <!-- <p id="index"></p> -->
+               <!-- <img src="usericon.png" alt="" style="width:40px"> -->
+               <!-- <div id="namediv"> -->
+                 <!-- <p>Name</p>
+                 <p>Number</p> -->
+              <!-- </div> -->
+
+            <!-- <div style="display:flex;">
+                    <button class="ibtn "><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    <button class="ibtn"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="ibtn"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+            </div> -->
+
+          </div>
+         
+        </div>
+
+
+
+    
+    
+    
+    
+    
+    
+    <div class="add" id="adddiv">
+        <div class="add1"><h2 id="addhead" style="display:flex;"></h2>
+              <button style="margin-left:40%; background-color:white; border: none;" onclick="none()">X</button>
+        </div>
+        <div class="add2">
+        
+       <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email"><br>
+            <label for="num">PhoneNumber:</label><br>
+            <input type="text" id="num"><br>
+            <label for="Address">Address:</label><br>
+            <input type="text" id="Address"><br>
+          
+            <button type="reset" class="add2btn" style="background-color:black">Reset</button>
+            
+          </form>    
+          <button type="button" class="add2btn add2btn1" id="inpbtn1" onclick="submit()">Submit</button>
+          <button type="button" class="add2btn add2btn1" id="inpbtn2" onclick="">Update</button>
+         
+        </div>
+
+    </div>
+ 
+    <div id="result">
+        <button onclick="none()" style="margin-left:90%; background-color:white; border: none;">X</button>
+    </div>
+
+
+    <script src="contact.js"></script>
+</body>
+</html>

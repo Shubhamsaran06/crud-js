@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.631);
+}
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    background-color: black;
+    height: 500px;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.main input{
+    border:none;
+}
+#maininput{
+    overflow-y: scroll;
+}
+    
+/* #search:focus {
+    
+    {
+        display: none;
+    }
+} */
+
+
+
+
+
+
+.mainin{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ibtn{
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.contactbtn{
+    height: 40px;
+    background-color:rgb(3, 135, 250);
+    color: aliceblue;
+}
+.ctsearch{
+    width: 70%;
+    border-radius: 20px;
+    height: 30px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    /* border: solid; */
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+}
+.add1{
+    border-bottom: solid 0.1px;
+   
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: grey;
+}
+.add2{
+    /* border: solid; */
+    margin-top: 20px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+}
+.add2btn{
+    margin: 20px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.add2btn1{
+    margin-top: -50px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+#result{
+    /* border: solid; */
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
